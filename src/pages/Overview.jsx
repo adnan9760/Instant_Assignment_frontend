@@ -71,7 +71,7 @@ export default function Overview() {
         setError("");
 
         const response = await fetch(
-          "http://localhost:5000/api/dashboard"
+          "https://instantbackend.work.gd/api/dashboard"
         );
 
         if (!response.ok) {
