@@ -14,7 +14,7 @@ export default function Bookings() {
         setError("");
 
         const response = await fetch(
-          "http://localhost:5000/api/bookings/"
+          "https://instantbackend.work.gd/api/bookings/"
         );
 
         if (!response.ok) {
