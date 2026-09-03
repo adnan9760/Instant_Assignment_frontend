@@ -112,7 +112,7 @@ export default function Analytics() {
         setError("");
 
         const response = await fetch(
-          "http://localhost:5000/api/analytics"
+          "https://instantbackend.work.gd/api/analytics"
         );
 
         if (!response.ok) {
